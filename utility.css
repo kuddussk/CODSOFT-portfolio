@@ -1,0 +1,53 @@
+.flex{
+    display: flex;
+}
+.link-style{
+    color: aqua;
+}
+.btn-primary{
+    background-color: rgb(153, 219, 246);
+    height: 40px;
+    width: 80px;
+    border-radius: 8px;
+    color: rgb(98, 99, 101);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+.btn-primary:hover{
+    color:#255784;
+  background-color: aqua;
+  box-shadow: 0 0 6px aqua,0 0 6px aqua,0 0 15px aqua;   /* in 20 px 10 px we set spread radius*/
+  /* transition-delay: 1s; */
+  opacity: 0.8;
+  color: rgb(249, 251, 227);
+
+}
+.footer{
+    display: flex;
+    /* height: 8vh; */
+    padding-top: 13px;
+    background-color:lightskyblue;
+    backdrop-filter: blur(10px);
+    
+}
+.footer p{
+    margin-left: 12vw;
+    font-weight: bold;
+}
+.social-icon-1{
+    margin-left: 4vw;
+    padding-bottom: 3px;
+}
+.social-icon-1 a i{
+    display: inline-flex;
+    height: 30px;
+    width: 30px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color:  #081b29;
+    color: aqua;
+    
+}

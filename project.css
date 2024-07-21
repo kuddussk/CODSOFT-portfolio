@@ -1,0 +1,79 @@
+@import 'style.css';
+@import 'utility.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-p{
+    background: linear-gradient(to right,#290267,#90bafc);
+    overflow: hidden;
+    height: 1900px;
+}
+.heading-main{
+    margin-top: 23vh;
+    text-align: center;
+    color: #fff;
+    font-weight: lighter;
+    text-shadow: 4px 4px 3px black;
+}
+#project{
+    position: relative;
+    top: 20vh;
+    display: grid;
+    grid-template-columns: 38% 40%;
+    text-align: center;
+    left: 10vw;
+    gap:20px;
+
+}
+.project-main{
+    /* border: 2px solid rgb(23, 26, 174); */
+    margin-bottom: 50px;
+    /* max-height:500px; */
+    max-width: 35vw;
+    padding: 18px;
+    /* background: rgb(59, 61, 60); */
+    background:rgb(235,0,255,0.11);
+    margin-right: 30px;
+    overflow:hidden;
+    box-shadow: 3px 3px 15px black;
+    transition: max-width 1s ; 
+    border-radius: 9px;
+    
+   
+}
+.project-main:hover{
+    max-width: 36vw;
+    box-shadow: 0 0 17px  black;
+    transform: rotate(1deg);
+    
+}
+.project-desc h2{
+    color: antiquewhite;
+}
+.project-desc-para{
+    color: cyan;
+}
+.project-main button{
+    margin: 10px;
+    width: 70px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    background-color: aqua;
+}
+.project-main button:hover{
+    color: #fff;
+    box-shadow: 0 0 8px aqua;
+    transform: rotate(3deg);
+}
+.project-main button a{
+    text-decoration: none;
+    color: rgb(18, 17, 17);
+}
+.project-main button a:hover{
+    color: blueviolet;
+    text-transform: capitalize;
+    
+}
